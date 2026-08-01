@@ -1,7 +1,28 @@
 aid: padsplit
 name: PadSplit
-description: PadSplit is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PadSplit is an Atlanta-based co-living marketplace that makes affordable
+  housing accessible by connecting members seeking private rooms in shared homes
+  with property owners who host them. The platform offers flexible weekly
+  payments, fast move-ins, all-inclusive rent (utilities, wifi, and furnishings),
+  member background screening, and a rewards program that helps residents build
+  credit. PadSplit operates across multiple U.S. metros as a two-sided
+  marketplace serving both members (renters) and hosts (property owners), and was
+  backed by Techstars. The company has no public developer program, API, or
+  documentation surface at this time; this profile captures its identity and
+  domain-security posture.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.padsplit.com/img/PS-link-share-img.jpg
 url: https://raw.githubusercontent.com/api-evangelist/padsplit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Housing
+- Marketplace
+- Rentals
+- Co-Living
+- Affordable Housing
+- Property Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/padsplit-domain-security.yml
 - type: Website
   url: https://padsplit.com/
+- type: Blog
+  url: https://www.padsplit.com/blog/
+- type: Support
+  url: https://www.padsplit.com/help
+- type: TermsOfService
+  url: https://www.padsplit.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.padsplit.com/privacy-policy
+- type: Login
+  url: https://www.padsplit.com/login
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
